@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;	
+}
+.hed{
+	font-weight: 50%;
+	color: #2E5894;
+	text-shadow: 2px 4px #ACACE6;
+	text-align: center;
+	font-size: 50px;
+}
+.del{
+	
+	color: lightblue;
+	
+	 margin-top: 40px;
+	font-size: 15px;
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 0;
+
+	
+}
+
+.intro {
+	height: 100%;
+	width: 100%;
+	background: url("mount.jpg");
+	background-size: cover;
+	margin: auto;
+	display: table;
+	top: 0;
+}
+.inner{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 100%;
+    position: absolute;
+    margin-top: 350px;
+	max-width: none;
+}
+.btn{
+	font-family: "Montserrat",sans-serif;
+	font-size: 135%;
+	font-weight: 400;
+	color: #3A6168;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: solid #3A6168;
+	padding: 10px 20px;
+	border-radius: 9px;
+	
+}
+.btn:hover{
+   color:#CBDFD6;
+    border: solid #CBDFD6;
+}
+
+
